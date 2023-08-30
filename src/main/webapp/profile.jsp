@@ -1,16 +1,12 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
 <html>
 <head>
-    <jsp:include page="partials/head.jsp">
-        <jsp:param name="title" value="Your Profile" />
-    </jsp:include>
+    <meta charset="UTF-8">
+    <title>Profile</title>
 </head>
 <body>
-    <jsp:include page="partials/navbar.jsp" />
-
-    <div class="container">
-        <h1>Viewing your profile.</h1>
-    </div>
-
+<h2>Welcome to Your Profile</h2>
+<p>This is your profile page.</p>
 </body>
 </html>
